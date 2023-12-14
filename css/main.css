@@ -136,13 +136,13 @@ body {
 
 @media (max-width: 540px) {
     .treeimg {
-        width: 130px;
-        height: 230px;
-        top: 450px; 
+        width: 170px;
+        height: 295px;
+        top: 410px; 
         left: 50px; 
     }
     .letteringimg {
-        width: 230px;
+        width: 250px;
         height: 90px;
         top: 160px; 
         right: 100px;
