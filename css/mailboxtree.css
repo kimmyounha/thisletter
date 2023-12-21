@@ -69,3 +69,17 @@ body {
 .lettershelf {
     margin: auto;
 }
+/* Add these styles to your existing CSS */
+
+.lettershelf {
+    width: 400px;
+    margin: 0 auto; /* Center the .lettershelf grid */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px; /* Adjust as needed */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+.letter-item{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+

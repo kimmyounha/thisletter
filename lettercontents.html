@@ -11,12 +11,12 @@
     <img src="img/letter.gif" alt="Letter Background" class="background-img">
     <div class="letter-container">
         <div class="letter-content">
-             <!-- 이부분 또한 data json에서 가져옴. -->
-            <div class="recipient-name">Dear [편지 받는 사람이름],</div>
-            <p>편지 내용 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores totam dolorem facilis, nam est. Tempore, quidem rerum quo velit voluptate ipsa distinctio dolores molestias sunt hic, beatae dolorum magnam.
-            </p>
-            <div class="sender-name">Sincerely, [편지 쓴 사람이름]</div>
+            <div class="recipient-name">Dear <span id="recipient-name"></span>,</div>
+            <p id="letter-content"></p>
+            <div class="sender-name">Sincerely, <span id="sender-name"></span></div>
         </div>
-    </div>
+    </div>  
+    <script src="js/data.js"></script>
+    <script src="js/lettercontents.js"></script>
 </body>
 </html>
