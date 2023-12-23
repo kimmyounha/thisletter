@@ -20,19 +20,20 @@ body {
 
 .letter-container {
     position: relative;
+    width: 380px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    background-image: url("../img/5054c8b0d8d2a35cfa61c4f0a00cdf35.jpg");
+    background-size: cover; /* 배경 이미지를 화면에 맞게 조절 */
+    background-position: center; /* 배경 이미지를 가운데 정렬 */
 }
 
 .letter-content {
-    position: relative;
-    z-index: 1;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
     text-align: center;
-    border: 2px solid #555; /* Add a border to the letter content */
+    color: white;
 }
+
 
 .recipient-name {
     font-size: 1.5em;
@@ -42,4 +43,46 @@ body {
 
 .sender-name {
     font-weight: bold;
+}
+
+/* lettercontents.css */
+
+.recipient-name {
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px; /* 적절한 크기로 조절하세요 */
+}
+
+#letter-content {
+    position: absolute;
+    top: 48px; /* recipient-name 아래에 위치하도록 조절 */
+    left: 10px;
+    right: 10px;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px; /* 적절한 크기로 조절하세요 */
+    text-decoration: underline;
+    text-decoration-color: rgb(211, 212, 191);
+    line-height: 24px; /* 글자와 글자 사이의 위 아래 여백 조절 */
+}
+
+.sender-name {
+    position: absolute;
+    bottom: 23px;
+    right: 20px;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px; /* 적절한 크기로 조절하세요 */
+    line-height: 20px; /* 적절한 크기로 조절하세요 */
+}
+
+
+@media (max-width: 600px) {
+    .letter-container {
+        width: 300px;
+        height: 500px;
+    }
 }
