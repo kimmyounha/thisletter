@@ -73,37 +73,37 @@ body {
 .lettershelf .letter-item:nth-child(2) {
     position: absolute;
     top: calc(143px + 63px); /* 143px (top of the first item) + 60px */
-    left: calc(146px - 5px); /* 146px (left of the first item) - 60px */
+    left: calc(146px); /* 146px (left of the first item) - 60px */
 }
 
 .lettershelf .letter-item:nth-child(3) {
     position: absolute;
     top: calc(143px + 55px); /* 143px (top of the first item) + 60px */
-    left: calc(146px + 70px); /* 146px (left of the first item) - 60px */
+    right: calc(146px); /* 146px (left of the first item) - 60px */
 }
 
 .lettershelf .letter-item:nth-child(4) {
     position: absolute;
     top: calc(143px + 140px); /* 143px (top of the first item) + 60px */
-    left: calc(146px + 77px); /* 146px (left of the first item) - 60px */
+    right: calc(146px - 10px); /* 146px (left of the first item) - 60px */
 }
 
 .lettershelf .letter-item:nth-child(5) {
     position: absolute;
     top: calc(143px + 137px); /* 143px (top of the first item) + 60px */
-    left: calc(146px + 10px); /* 146px (left of the first item) - 60px */
+    left: calc(146px - 20px); /* 146px (left of the first item) - 60px */
 }
 
 .lettershelf .letter-item:nth-child(6) {
     position: absolute;
     top: calc(143px + 238px); /* 143px (top of the first item) + 60px */
-    left: calc(146px + 110px); /* 146px (left of the first item) - 60px */
+    left: calc(146px + 90px); /* 146px (left of the first item) - 60px */
 }
 
 .lettershelf .letter-item:nth-child(7) {
     position: absolute;
     top: calc(143px + 250px); /* 143px (top of the first item) + 60px */
-    left: calc(146px + 34px); /* 146px (left of the first item) - 60px */
+    left: calc(146px + 20px); /* 146px (left of the first item) - 60px */
 }
 .lettershelf .letter-item:nth-child(8) {
     position: absolute;
