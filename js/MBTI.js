@@ -24,3 +24,4 @@ letters.forEach(letter => {
     const letterItem = generateLetterItem(letter);
     lettershelf.appendChild(letterItem);
 });
+
