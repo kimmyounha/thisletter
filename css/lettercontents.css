@@ -59,8 +59,8 @@ body {
 #letter-content {
     position: absolute;
     top: 48px; /* recipient-name 아래에 위치하도록 조절 */
-    left: 10px;
-    right: 10px;
+    left: 8px;
+    right: 8px;
     color: black;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 12px; /* 적절한 크기로 조절하세요 */

@@ -22,11 +22,21 @@ for (let letter of letters) {
 }
 console.log(letterData);
 
-// 편지 데이터에서 receiver_name, sender_name, content 가져오기
+// 편지 데이터에서 receiver_name, sender_name, content, password 가져오기
 let receiverName = letterData.receiver_name;
 let senderName = letterData.sender_name;
 let content = letterData.content;
+let letterPassword = letterData.password;
 
-document.getElementById("recipient-name").innerText = receiverName;
-document.getElementById("sender-name").innerText = senderName;
-document.getElementById("letter-content").innerText = content;
+// 사용자로부터 입력받은 비밀번호 확인
+let userInputPassword = prompt("편지의 비밀번호를 입력하세요:");
+
+// 비밀번호가 일치하면 페이지 이동, 일치하지 않으면 경고 메시지 표시
+if (userInputPassword === letterPassword) {
+    document.getElementById("recipient-name").innerText = receiverName;
+    document.getElementById("sender-name").innerText = senderName;
+    document.getElementById("letter-content").innerText = content;
+} else {
+    alert("비밀번호가 일치하지 않습니다. 다시 시도해주세요.");
+    window.location.href = "index.html"; // 비밀번호가 일치하지 않으면 인덱스 페이지로 이동
+}
