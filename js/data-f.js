@@ -55,19 +55,5 @@ let letters = [
     "sender_name": "송신자의 이름3",
     "content": "편지 내용이 여기에 들어갑니다3.",
     "password": "1234"
-  },
-  {
-    "id": 9,
-    "receiver_name": "수신자의 이름3",
-    "sender_name": "송신자의 이름3",
-    "content": "편지 내용이 여기에 들어갑니다3.",
-    "password": "1234"
-  },
-  {
-    "id": 10,
-    "receiver_name": "수신자의 이름3",
-    "sender_name": "송신자의 이름3",
-    "content": "편지 내용이 여기에 들어갑니다3.",
-    "password": "1234"
   }
 ]
