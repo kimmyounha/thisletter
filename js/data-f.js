@@ -45,15 +45,15 @@ let letters = [
   {
     "id": 7,
     "receiver_name": "박도연",
-    "sender_name": "송신자의 이름3",
+    "sender_name": "김윤하하하하",
     "content": "편지 내용이 여기에 들어갑니다3.",
     "password": "1201"
   },
   {
     "id": 8,
     "receiver_name": "윤민서",
-    "sender_name": "송신자의 이름3",
-    "content": "편지 내용이 여기에 들어갑니다3.",
+    "sender_name": "김윤민서",
+    "content": "민서야 안녕!! 나 윤하야. ",
     "password": "1214"
   }
 ]
