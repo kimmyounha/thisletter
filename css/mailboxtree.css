@@ -96,18 +96,18 @@ body {
 
 .lettershelf .letter-item:nth-child(6) {
     position: absolute;
-    top: calc(143px + 210px); /* 143px (top of the first item) + 60px */
+    top: calc(143px + 227px); /* 143px (top of the first item) + 60px */
     left: calc(221px); /* 146px (left of the first item) - 60px */
 }
 
 .lettershelf .letter-item:nth-child(7) {
     position: absolute;
-    top: calc(143px + 200px); /* 143px (top of the first item) + 60px */
+    top: calc(143px + 220px); /* 143px (top of the first item) + 60px */
     left: calc(153px); /* 146px (left of the first item) - 60px */
 }
 .lettershelf .letter-item:nth-child(8) {
     position: absolute;
-    top: calc(143px + 210px); /* 143px (top of the first item) + 60px */
+    top: calc(143px + 227px); /* 143px (top of the first item) + 60px */
     left: calc(80px); /* 146px (left of the first item) - 60px */
 }
 
