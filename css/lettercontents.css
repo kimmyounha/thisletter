@@ -66,7 +66,7 @@ body {
 
 #letter-content {
     position: absolute;
-    top: 70px; /* recipient-name 아래에 위치하도록 조절 */
+    top: 40px; /* recipient-name 아래에 위치하도록 조절 */
     left: 8px;
     right: 8px;
     color: black;
