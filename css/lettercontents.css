@@ -43,10 +43,12 @@ body {
 .letter-content {
     text-align: center;
     color: white;
+    
 }
 
+
 .recipient-name {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
     margin-bottom: 10px;
 }
